@@ -21,5 +21,3 @@ class QRCode(commands.Cog):
       await ctx.send(file=discord.File(stream, filename="url.png"))
     except Exception as error:
       await ctx.send(error)
-
-#just try
